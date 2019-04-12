@@ -22,12 +22,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = UIViewController()
         
         let navi = UINavigationController()
-        let core = CoreAssembly(navigationController: navi)
+        let coreAssembly = CoreAssembly(navigationController: navi)
+        let login = coreAssembly.loginAssembly.getLoginViewController()
         
-        core.webServiceAssembly.webService.loadGenericFromApi(type: MarvelComic.self, endpoint: .comics) { result in
-            print(result)
-        }
-        
+        window?.rootViewController = login
         
         return true
     }

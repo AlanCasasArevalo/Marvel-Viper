@@ -40,6 +40,13 @@
 		51DEA1EB2261123A00D6DE90 /* GenericInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DEA1EA2261123A00D6DE90 /* GenericInteractor.swift */; };
 		51DEA1ED2261126B00D6DE90 /* GenericWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DEA1EC2261126B00D6DE90 /* GenericWireframe.swift */; };
 		51DEA1EF226112A900D6DE90 /* GenericPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DEA1EE226112A900D6DE90 /* GenericPresenter.swift */; };
+		51DEA1F32261138300D6DE90 /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DEA1F22261138300D6DE90 /* LoginProtocols.swift */; };
+		51DEA1F52261139B00D6DE90 /* LoginWireframeImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DEA1F42261139B00D6DE90 /* LoginWireframeImplementation.swift */; };
+		51DEA1F7226113B300D6DE90 /* LoginIntereactorImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DEA1F6226113B300D6DE90 /* LoginIntereactorImplementation.swift */; };
+		51DEA1F9226113C500D6DE90 /* LoginPresenterImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DEA1F8226113C500D6DE90 /* LoginPresenterImplementation.swift */; };
+		51DEA1FC226113DF00D6DE90 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DEA1FA226113DF00D6DE90 /* LoginViewController.swift */; };
+		51DEA1FD226113DF00D6DE90 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51DEA1FB226113DF00D6DE90 /* LoginViewController.xib */; };
+		51DEA1FF2261196D00D6DE90 /* LoginAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DEA1FE2261196D00D6DE90 /* LoginAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +97,13 @@
 		51DEA1EA2261123A00D6DE90 /* GenericInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericInteractor.swift; sourceTree = "<group>"; };
 		51DEA1EC2261126B00D6DE90 /* GenericWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericWireframe.swift; sourceTree = "<group>"; };
 		51DEA1EE226112A900D6DE90 /* GenericPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericPresenter.swift; sourceTree = "<group>"; };
+		51DEA1F22261138300D6DE90 /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
+		51DEA1F42261139B00D6DE90 /* LoginWireframeImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWireframeImplementation.swift; sourceTree = "<group>"; };
+		51DEA1F6226113B300D6DE90 /* LoginIntereactorImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginIntereactorImplementation.swift; sourceTree = "<group>"; };
+		51DEA1F8226113C500D6DE90 /* LoginPresenterImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterImplementation.swift; sourceTree = "<group>"; };
+		51DEA1FA226113DF00D6DE90 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		51DEA1FB226113DF00D6DE90 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		51DEA1FE2261196D00D6DE90 /* LoginAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +149,7 @@
 				51D9F90B2260E38C00741E1E /* Assets.xcassets */,
 				51D9F90D2260E38C00741E1E /* LaunchScreen.storyboard */,
 				51D9F9102260E38C00741E1E /* Info.plist */,
+				51DEA1F02261136900D6DE90 /* FLOW_SECTIONS */,
 				51DEA1E7226111CE00D6DE90 /* GENERIC_CLASSES */,
 				51D9F9312260EBEE00741E1E /* DI */,
 				51D9F92B2260E9D600741E1E /* COMMONS */,
@@ -215,6 +230,28 @@
 				51DEA1EE226112A900D6DE90 /* GenericPresenter.swift */,
 			);
 			path = GENERIC_CLASSES;
+			sourceTree = "<group>";
+		};
+		51DEA1F02261136900D6DE90 /* FLOW_SECTIONS */ = {
+			isa = PBXGroup;
+			children = (
+				51DEA1F12261137200D6DE90 /* LOGIN */,
+			);
+			path = FLOW_SECTIONS;
+			sourceTree = "<group>";
+		};
+		51DEA1F12261137200D6DE90 /* LOGIN */ = {
+			isa = PBXGroup;
+			children = (
+				51DEA1F22261138300D6DE90 /* LoginProtocols.swift */,
+				51DEA1F42261139B00D6DE90 /* LoginWireframeImplementation.swift */,
+				51DEA1F8226113C500D6DE90 /* LoginPresenterImplementation.swift */,
+				51DEA1F6226113B300D6DE90 /* LoginIntereactorImplementation.swift */,
+				51DEA1FA226113DF00D6DE90 /* LoginViewController.swift */,
+				51DEA1FE2261196D00D6DE90 /* LoginAssembly.swift */,
+				51DEA1FB226113DF00D6DE90 /* LoginViewController.xib */,
+			);
+			path = LOGIN;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +337,7 @@
 			files = (
 				51D9F90F2260E38C00741E1E /* LaunchScreen.storyboard in Resources */,
 				51D9F90C2260E38C00741E1E /* Assets.xcassets in Resources */,
+				51DEA1FD226113DF00D6DE90 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,8 +362,11 @@
 				51DEA1EB2261123A00D6DE90 /* GenericInteractor.swift in Sources */,
 				51D9F9052260E38B00741E1E /* AppDelegate.swift in Sources */,
 				51C469152260FA7E008E5DE8 /* MarvelStories.swift in Sources */,
+				51DEA1FF2261196D00D6DE90 /* LoginAssembly.swift in Sources */,
+				51DEA1F32261138300D6DE90 /* LoginProtocols.swift in Sources */,
 				51C468F72260F326008E5DE8 /* DataClass.swift in Sources */,
 				51D9F9282260E97A00741E1E /* Endpoint.swift in Sources */,
+				51DEA1F52261139B00D6DE90 /* LoginWireframeImplementation.swift in Sources */,
 				51C469112260F6DD008E5DE8 /* TextObject.swift in Sources */,
 				51D9F9362260F07000741E1E /* ComicCharacters.swift in Sources */,
 				51C4690B2260F66E008E5DE8 /* Result.swift in Sources */,
@@ -337,10 +378,13 @@
 				51C469032260F42B008E5DE8 /* URLElement.swift in Sources */,
 				51D9F92F2260EB9800741E1E /* WebServiceAssembly.swift in Sources */,
 				51D9F9332260EBFA00741E1E /* CoreAssembly.swift in Sources */,
+				51DEA1F7226113B300D6DE90 /* LoginIntereactorImplementation.swift in Sources */,
 				51D9F9262260E93200741E1E /* WebServiceConfiguration.swift in Sources */,
 				51C468F52260F288008E5DE8 /* MarvelComic.swift in Sources */,
 				51C469012260F3D6008E5DE8 /* StoriesItem.swift in Sources */,
+				51DEA1F9226113C500D6DE90 /* LoginPresenterImplementation.swift in Sources */,
 				51C468F92260F349008E5DE8 /* Thumbnail.swift in Sources */,
+				51DEA1FC226113DF00D6DE90 /* LoginViewController.swift in Sources */,
 				51C469192260FB4E008E5DE8 /* Item.swift in Sources */,
 				51C469132260F6F8008E5DE8 /* Characters.swift in Sources */,
 				51C4690F2260F6CB008E5DE8 /* DateElement.swift in Sources */,
