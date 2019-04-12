@@ -36,6 +36,10 @@
 		51D9F92F2260EB9800741E1E /* WebServiceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D9F92E2260EB9800741E1E /* WebServiceAssembly.swift */; };
 		51D9F9332260EBFA00741E1E /* CoreAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D9F9322260EBFA00741E1E /* CoreAssembly.swift */; };
 		51D9F9362260F07000741E1E /* ComicCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D9F9352260F07000741E1E /* ComicCharacters.swift */; };
+		51DEA1E9226111EF00D6DE90 /* GenericViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DEA1E8226111EF00D6DE90 /* GenericViewController.swift */; };
+		51DEA1EB2261123A00D6DE90 /* GenericInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DEA1EA2261123A00D6DE90 /* GenericInteractor.swift */; };
+		51DEA1ED2261126B00D6DE90 /* GenericWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DEA1EC2261126B00D6DE90 /* GenericWireframe.swift */; };
+		51DEA1EF226112A900D6DE90 /* GenericPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DEA1EE226112A900D6DE90 /* GenericPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +86,10 @@
 		51D9F92E2260EB9800741E1E /* WebServiceAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceAssembly.swift; sourceTree = "<group>"; };
 		51D9F9322260EBFA00741E1E /* CoreAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAssembly.swift; sourceTree = "<group>"; };
 		51D9F9352260F07000741E1E /* ComicCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicCharacters.swift; sourceTree = "<group>"; };
+		51DEA1E8226111EF00D6DE90 /* GenericViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericViewController.swift; sourceTree = "<group>"; };
+		51DEA1EA2261123A00D6DE90 /* GenericInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericInteractor.swift; sourceTree = "<group>"; };
+		51DEA1EC2261126B00D6DE90 /* GenericWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericWireframe.swift; sourceTree = "<group>"; };
+		51DEA1EE226112A900D6DE90 /* GenericPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +135,7 @@
 				51D9F90B2260E38C00741E1E /* Assets.xcassets */,
 				51D9F90D2260E38C00741E1E /* LaunchScreen.storyboard */,
 				51D9F9102260E38C00741E1E /* Info.plist */,
+				51DEA1E7226111CE00D6DE90 /* GENERIC_CLASSES */,
 				51D9F9312260EBEE00741E1E /* DI */,
 				51D9F92B2260E9D600741E1E /* COMMONS */,
 				51D9F9242260E91500741E1E /* Web Service */,
@@ -195,6 +204,17 @@
 				51C469062260F477008E5DE8 /* Comics.swift */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		51DEA1E7226111CE00D6DE90 /* GENERIC_CLASSES */ = {
+			isa = PBXGroup;
+			children = (
+				51DEA1E8226111EF00D6DE90 /* GenericViewController.swift */,
+				51DEA1EA2261123A00D6DE90 /* GenericInteractor.swift */,
+				51DEA1EC2261126B00D6DE90 /* GenericWireframe.swift */,
+				51DEA1EE226112A900D6DE90 /* GenericPresenter.swift */,
+			);
+			path = GENERIC_CLASSES;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,8 +317,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51DEA1EF226112A900D6DE90 /* GenericPresenter.swift in Sources */,
 				51C468FD2260F37A008E5DE8 /* Events.swift in Sources */,
+				51DEA1ED2261126B00D6DE90 /* GenericWireframe.swift in Sources */,
 				51D9F92D2260E9F400741E1E /* Constants.swift in Sources */,
+				51DEA1EB2261123A00D6DE90 /* GenericInteractor.swift in Sources */,
 				51D9F9052260E38B00741E1E /* AppDelegate.swift in Sources */,
 				51C469152260FA7E008E5DE8 /* MarvelStories.swift in Sources */,
 				51C468F72260F326008E5DE8 /* DataClass.swift in Sources */,
@@ -306,6 +329,7 @@
 				51C469112260F6DD008E5DE8 /* TextObject.swift in Sources */,
 				51D9F9362260F07000741E1E /* ComicCharacters.swift in Sources */,
 				51C4690B2260F66E008E5DE8 /* Result.swift in Sources */,
+				51DEA1E9226111EF00D6DE90 /* GenericViewController.swift in Sources */,
 				51C468FB2260F362008E5DE8 /* Price.swift in Sources */,
 				51C469052260F454008E5DE8 /* ComicsItem.swift in Sources */,
 				51D9F92A2260E9C100741E1E /* WebService.swift in Sources */,
