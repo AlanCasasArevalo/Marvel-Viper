@@ -9,9 +9,9 @@
 import Foundation
 
 struct StoriesItem: Codable {
-    let resourceURI: String
-    let name: String
-    let type: String
+    let resourceURI: String?
+    let name: String?
+    let type: String?
     
     enum CodingKeys: String, CodingKey {
         case resourceURI = "resourceURI"

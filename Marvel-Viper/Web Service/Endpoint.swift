@@ -14,6 +14,7 @@ private enum HTTPMethod: String {
 
 internal enum Endpoint {
     case configuration
+    case comics
 }
 
 internal extension Endpoint {
@@ -45,6 +46,8 @@ private extension Endpoint {
         switch self {
         case .configuration:
             return "configuration"
+        case .comics:
+            return "comics"
         }
     }
     
@@ -52,6 +55,10 @@ private extension Endpoint {
         switch self {
         case .configuration:
             return [:]
+        case .comics:
+            return [
+               "limit" : "1"
+            ]
         }
     }
     

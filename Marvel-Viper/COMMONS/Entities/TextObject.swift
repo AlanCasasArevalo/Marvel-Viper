@@ -9,9 +9,9 @@
 import Foundation
 
 struct TextObject: Codable {
-    let type: String
-    let language: String
-    let text: String
+    let type: String?
+    let language: String?
+    let text: String?
     
     enum CodingKeys: String, CodingKey {
         case type = "type"

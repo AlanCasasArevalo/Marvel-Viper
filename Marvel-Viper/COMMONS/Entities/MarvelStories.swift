@@ -15,13 +15,13 @@ import Foundation
 import Foundation
 
 struct MarvelStories: Codable {
-    let code: String
-    let status: String
-    let copyright: String
-    let attributionText: String
-    let attributionHTML: String
-    let data: DataClass
-    let etag: String
+    let code: Int?
+    let status: String?
+    let copyright: String?
+    let attributionText: String?
+    let attributionHTML: String?
+    let data: DataClass?
+    let etag: String?
     
     enum CodingKeys: String, CodingKey {
         case code = "code"

@@ -9,10 +9,10 @@
 import Foundation
 
 struct Events: Codable {
-    let available: String
-    let returned: String
-    let collectionURI: String
-    let items: [MarvelSeries]
+    let available: Int?
+    let returned: Int?
+    let collectionURI: String?
+    let items: [MarvelSeries]?
     
     enum CodingKeys: String, CodingKey {
         case available = "available"

@@ -9,8 +9,8 @@
 import Foundation
 
 struct URLElement: Codable {
-    let type: String
-    let url: String
+    let type: String?
+    let url: String?
     
     enum CodingKeys: String, CodingKey {
         case type = "type"

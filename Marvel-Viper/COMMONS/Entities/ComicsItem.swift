@@ -9,8 +9,8 @@
 import Foundation
 
 struct ComicsItem: Codable {
-    let resourceURI: String
-    let name: String
+    let resourceURI: String?
+    let name: String?
     
     enum CodingKeys: String, CodingKey {
         case resourceURI = "resourceURI"

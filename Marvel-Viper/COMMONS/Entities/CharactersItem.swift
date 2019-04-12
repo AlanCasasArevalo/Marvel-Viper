@@ -9,9 +9,9 @@
 import Foundation
 
 struct CharactersItem: Codable {
-    let resourceURI: String
-    let name: String
-    let role: String
+    let resourceURI: String?
+    let name: String?
+    let role: String?
     
     enum CodingKeys: String, CodingKey {
         case resourceURI = "resourceURI"

@@ -9,8 +9,8 @@
 import Foundation
 
 struct DateElement: Codable {
-    let type: String
-    let date: String
+    let type: String?
+    let date: String?
     
     enum CodingKeys: String, CodingKey {
         case type = "type"

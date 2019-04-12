@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let navi = UINavigationController()
         let core = CoreAssembly(navigationController: navi)
         
-        core.webServiceAssembly.webService.loadGenericFromApi(type: MarvelComic.self, endpoint: .configuration) { result in
+        core.webServiceAssembly.webService.loadGenericFromApi(type: MarvelComic.self, endpoint: .comics) { result in
             print(result)
         }
         

@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Marvel-Viper/Web Service/WebService.swift"
-            timestampString = "576781524.93314"
+            timestampString = "576783167.169281"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "loadGenericFromApi(type:endpoint:completion:)"
             landmarkType = "7">
          </BreakpointContent>

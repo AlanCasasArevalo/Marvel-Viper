@@ -9,11 +9,11 @@
 import Foundation
 
 struct DataClass: Codable {
-    let offset: String
-    let limit: String
-    let total: String
-    let count: String
-    let results: [Result]
+    let offset: Int?
+    let limit: Int?
+    let total: Int?
+    let count: Int?
+    let results: [Result]?
     
     enum CodingKeys: String, CodingKey {
         case offset = "offset"

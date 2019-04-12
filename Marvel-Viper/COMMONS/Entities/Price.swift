@@ -9,8 +9,8 @@
 import Foundation
 
 struct Price: Codable {
-    let type: String
-    let price: String
+    let type: String?
+    let price: Double?
     
     enum CodingKeys: String, CodingKey {
         case type = "type"
