@@ -21,6 +21,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.backgroundColor = UIColor.cyan
         window?.rootViewController = UIViewController()
         
+        let navi = UINavigationController()
+        let core = CoreAssembly(navigationController: navi)
+        
+        core.webServiceAssembly.webService.loadGenericFromApi(type: MarvelComic.self, endpoint: .comics) { result in
+            print(result)
+        }
+        
+        
         return true
     }
 }
